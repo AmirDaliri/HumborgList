@@ -1,0 +1,877 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2921287C2063F23D0047F163 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2921287B2063F23D0047F163 /* AppDelegate.swift */; };
+		2921287E2063F23D0047F163 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2921287D2063F23D0047F163 /* ViewController.swift */; };
+		292128812063F23D0047F163 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2921287F2063F23D0047F163 /* Main.storyboard */; };
+		292128842063F23D0047F163 /* HumborgList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 292128822063F23D0047F163 /* HumborgList.xcdatamodeld */; };
+		292128862063F23D0047F163 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 292128852063F23D0047F163 /* Assets.xcassets */; };
+		292128892063F23D0047F163 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 292128872063F23D0047F163 /* LaunchScreen.storyboard */; };
+		292128942063F23D0047F163 /* HumborgListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292128932063F23D0047F163 /* HumborgListTests.swift */; };
+		2921289F2063F23D0047F163 /* HumborgListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2921289E2063F23D0047F163 /* HumborgListUITests.swift */; };
+		292128B42063F39D0047F163 /* ApiRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292128B32063F39D0047F163 /* ApiRouter.swift */; };
+		292128B62063F3C80047F163 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292128B52063F3C80047F163 /* User.swift */; };
+		292128B82063F3D80047F163 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292128B72063F3D80047F163 /* Constants.swift */; };
+		5D8A0D2A72D31B4A095BF96E /* Pods_HumborgList.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC11685F5E5AAF39AEDE33C0 /* Pods_HumborgList.framework */; };
+		702E56F6A33B7D676F44EBD3 /* Pods_HumborgListTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E53F94168D4516F60639E71E /* Pods_HumborgListTests.framework */; };
+		886DF23A29FB0C4642CF1144 /* Pods_HumborgListUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 970BCCD67EC1E63806010C51 /* Pods_HumborgListUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		292128902063F23D0047F163 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 292128702063F23D0047F163 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 292128772063F23D0047F163;
+			remoteInfo = HumborgList;
+		};
+		2921289B2063F23D0047F163 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 292128702063F23D0047F163 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 292128772063F23D0047F163;
+			remoteInfo = HumborgList;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01479928692F9B0AC7DFA1D7 /* Pods-HumborgListUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HumborgListUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HumborgListUITests/Pods-HumborgListUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1DE58BFA1EC333A1E33A5BC8 /* Pods-HumborgListTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HumborgListTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HumborgListTests/Pods-HumborgListTests.release.xcconfig"; sourceTree = "<group>"; };
+		292128782063F23D0047F163 /* HumborgList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HumborgList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2921287B2063F23D0047F163 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2921287D2063F23D0047F163 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		292128802063F23D0047F163 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		292128832063F23D0047F163 /* HumborgList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HumborgList.xcdatamodel; sourceTree = "<group>"; };
+		292128852063F23D0047F163 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		292128882063F23D0047F163 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2921288A2063F23D0047F163 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2921288F2063F23D0047F163 /* HumborgListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HumborgListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		292128932063F23D0047F163 /* HumborgListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumborgListTests.swift; sourceTree = "<group>"; };
+		292128952063F23D0047F163 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2921289A2063F23D0047F163 /* HumborgListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HumborgListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2921289E2063F23D0047F163 /* HumborgListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumborgListUITests.swift; sourceTree = "<group>"; };
+		292128A02063F23D0047F163 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		292128B32063F39D0047F163 /* ApiRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiRouter.swift; sourceTree = "<group>"; };
+		292128B52063F3C80047F163 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		292128B72063F3D80047F163 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		31D4008ED6E193FD5B30B6D9 /* Pods-HumborgList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HumborgList.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HumborgList/Pods-HumborgList.debug.xcconfig"; sourceTree = "<group>"; };
+		970BCCD67EC1E63806010C51 /* Pods_HumborgListUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HumborgListUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACE9B16DFF6D2F809ECD0F1F /* Pods-HumborgListTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HumborgListTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HumborgListTests/Pods-HumborgListTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D2950DE9CE3F2F28D764776D /* Pods-HumborgList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HumborgList.release.xcconfig"; path = "Pods/Target Support Files/Pods-HumborgList/Pods-HumborgList.release.xcconfig"; sourceTree = "<group>"; };
+		DC11685F5E5AAF39AEDE33C0 /* Pods_HumborgList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HumborgList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E53F94168D4516F60639E71E /* Pods_HumborgListTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HumborgListTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBF22E9C240ADEBD7D7AD7ED /* Pods-HumborgListUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HumborgListUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HumborgListUITests/Pods-HumborgListUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		292128752063F23D0047F163 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D8A0D2A72D31B4A095BF96E /* Pods_HumborgList.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2921288C2063F23D0047F163 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				702E56F6A33B7D676F44EBD3 /* Pods_HumborgListTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		292128972063F23D0047F163 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				886DF23A29FB0C4642CF1144 /* Pods_HumborgListUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2921286F2063F23D0047F163 = {
+			isa = PBXGroup;
+			children = (
+				2921287A2063F23D0047F163 /* HumborgList */,
+				292128922063F23D0047F163 /* HumborgListTests */,
+				2921289D2063F23D0047F163 /* HumborgListUITests */,
+				292128792063F23D0047F163 /* Products */,
+				338EE7FCDE0F00465487C2E5 /* Pods */,
+				63B6FA3C00475446765C29D1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		292128792063F23D0047F163 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				292128782063F23D0047F163 /* HumborgList.app */,
+				2921288F2063F23D0047F163 /* HumborgListTests.xctest */,
+				2921289A2063F23D0047F163 /* HumborgListUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2921287A2063F23D0047F163 /* HumborgList */ = {
+			isa = PBXGroup;
+			children = (
+				292128B92063F3E90047F163 /* Api */,
+				292128BA2063F3F70047F163 /* Models */,
+				292128AC2063F33F0047F163 /* Controllers */,
+				292128AD2063F34C0047F163 /* View */,
+				292128AF2063F3660047F163 /* Resources */,
+				292128B02063F3720047F163 /* Supporting Files */,
+			);
+			path = HumborgList;
+			sourceTree = "<group>";
+		};
+		292128922063F23D0047F163 /* HumborgListTests */ = {
+			isa = PBXGroup;
+			children = (
+				292128932063F23D0047F163 /* HumborgListTests.swift */,
+				292128952063F23D0047F163 /* Info.plist */,
+			);
+			path = HumborgListTests;
+			sourceTree = "<group>";
+		};
+		2921289D2063F23D0047F163 /* HumborgListUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2921289E2063F23D0047F163 /* HumborgListUITests.swift */,
+				292128A02063F23D0047F163 /* Info.plist */,
+			);
+			path = HumborgListUITests;
+			sourceTree = "<group>";
+		};
+		292128AC2063F33F0047F163 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2921287B2063F23D0047F163 /* AppDelegate.swift */,
+				2921287D2063F23D0047F163 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		292128AD2063F34C0047F163 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				292128AE2063F35A0047F163 /* Storyboards & Nibs */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		292128AE2063F35A0047F163 /* Storyboards & Nibs */ = {
+			isa = PBXGroup;
+			children = (
+				2921287F2063F23D0047F163 /* Main.storyboard */,
+				292128872063F23D0047F163 /* LaunchScreen.storyboard */,
+			);
+			path = "Storyboards & Nibs";
+			sourceTree = "<group>";
+		};
+		292128AF2063F3660047F163 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				292128852063F23D0047F163 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		292128B02063F3720047F163 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2921288A2063F23D0047F163 /* Info.plist */,
+				292128822063F23D0047F163 /* HumborgList.xcdatamodeld */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		292128B92063F3E90047F163 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				292128B32063F39D0047F163 /* ApiRouter.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		292128BA2063F3F70047F163 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				292128B52063F3C80047F163 /* User.swift */,
+				292128B72063F3D80047F163 /* Constants.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		338EE7FCDE0F00465487C2E5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				31D4008ED6E193FD5B30B6D9 /* Pods-HumborgList.debug.xcconfig */,
+				D2950DE9CE3F2F28D764776D /* Pods-HumborgList.release.xcconfig */,
+				ACE9B16DFF6D2F809ECD0F1F /* Pods-HumborgListTests.debug.xcconfig */,
+				1DE58BFA1EC333A1E33A5BC8 /* Pods-HumborgListTests.release.xcconfig */,
+				01479928692F9B0AC7DFA1D7 /* Pods-HumborgListUITests.debug.xcconfig */,
+				EBF22E9C240ADEBD7D7AD7ED /* Pods-HumborgListUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		63B6FA3C00475446765C29D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC11685F5E5AAF39AEDE33C0 /* Pods_HumborgList.framework */,
+				E53F94168D4516F60639E71E /* Pods_HumborgListTests.framework */,
+				970BCCD67EC1E63806010C51 /* Pods_HumborgListUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		292128772063F23D0047F163 /* HumborgList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 292128A32063F23D0047F163 /* Build configuration list for PBXNativeTarget "HumborgList" */;
+			buildPhases = (
+				9FFD6BE2BCE92532B21A34E5 /* [CP] Check Pods Manifest.lock */,
+				292128742063F23D0047F163 /* Sources */,
+				292128752063F23D0047F163 /* Frameworks */,
+				292128762063F23D0047F163 /* Resources */,
+				A9A617FB35E0F722D310066A /* [CP] Embed Pods Frameworks */,
+				E798C2D213DF9A1155019A18 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HumborgList;
+			productName = HumborgList;
+			productReference = 292128782063F23D0047F163 /* HumborgList.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2921288E2063F23D0047F163 /* HumborgListTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 292128A62063F23D0047F163 /* Build configuration list for PBXNativeTarget "HumborgListTests" */;
+			buildPhases = (
+				94AEE59A34A9A99A7A616BFA /* [CP] Check Pods Manifest.lock */,
+				2921288B2063F23D0047F163 /* Sources */,
+				2921288C2063F23D0047F163 /* Frameworks */,
+				2921288D2063F23D0047F163 /* Resources */,
+				EA51FC0DF702E25CE909F235 /* [CP] Embed Pods Frameworks */,
+				DAB57F60CBE83349514ADDB4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				292128912063F23D0047F163 /* PBXTargetDependency */,
+			);
+			name = HumborgListTests;
+			productName = HumborgListTests;
+			productReference = 2921288F2063F23D0047F163 /* HumborgListTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		292128992063F23D0047F163 /* HumborgListUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 292128A92063F23D0047F163 /* Build configuration list for PBXNativeTarget "HumborgListUITests" */;
+			buildPhases = (
+				6183E1A05615D454887A7953 /* [CP] Check Pods Manifest.lock */,
+				292128962063F23D0047F163 /* Sources */,
+				292128972063F23D0047F163 /* Frameworks */,
+				292128982063F23D0047F163 /* Resources */,
+				4C1146C4D5559B4C4FE68B30 /* [CP] Embed Pods Frameworks */,
+				4AB547957AEEFCC737DD2E08 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2921289C2063F23D0047F163 /* PBXTargetDependency */,
+			);
+			name = HumborgListUITests;
+			productName = HumborgListUITests;
+			productReference = 2921289A2063F23D0047F163 /* HumborgListUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		292128702063F23D0047F163 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = AmirDaliri;
+				TargetAttributes = {
+					292128772063F23D0047F163 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					2921288E2063F23D0047F163 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 292128772063F23D0047F163;
+					};
+					292128992063F23D0047F163 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 292128772063F23D0047F163;
+					};
+				};
+			};
+			buildConfigurationList = 292128732063F23D0047F163 /* Build configuration list for PBXProject "HumborgList" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2921286F2063F23D0047F163;
+			productRefGroup = 292128792063F23D0047F163 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				292128772063F23D0047F163 /* HumborgList */,
+				2921288E2063F23D0047F163 /* HumborgListTests */,
+				292128992063F23D0047F163 /* HumborgListUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		292128762063F23D0047F163 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				292128892063F23D0047F163 /* LaunchScreen.storyboard in Resources */,
+				292128862063F23D0047F163 /* Assets.xcassets in Resources */,
+				292128812063F23D0047F163 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2921288D2063F23D0047F163 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		292128982063F23D0047F163 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4AB547957AEEFCC737DD2E08 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HumborgListUITests/Pods-HumborgListUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C1146C4D5559B4C4FE68B30 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HumborgListUITests/Pods-HumborgListUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HumborgListUITests/Pods-HumborgListUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6183E1A05615D454887A7953 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HumborgListUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94AEE59A34A9A99A7A616BFA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HumborgListTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FFD6BE2BCE92532B21A34E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HumborgList-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9A617FB35E0F722D310066A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HumborgList/Pods-HumborgList-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HumborgList/Pods-HumborgList-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAB57F60CBE83349514ADDB4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HumborgListTests/Pods-HumborgListTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E798C2D213DF9A1155019A18 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HumborgList/Pods-HumborgList-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA51FC0DF702E25CE909F235 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HumborgListTests/Pods-HumborgListTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HumborgListTests/Pods-HumborgListTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		292128742063F23D0047F163 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				292128842063F23D0047F163 /* HumborgList.xcdatamodeld in Sources */,
+				292128B42063F39D0047F163 /* ApiRouter.swift in Sources */,
+				2921287E2063F23D0047F163 /* ViewController.swift in Sources */,
+				292128B62063F3C80047F163 /* User.swift in Sources */,
+				2921287C2063F23D0047F163 /* AppDelegate.swift in Sources */,
+				292128B82063F3D80047F163 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2921288B2063F23D0047F163 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				292128942063F23D0047F163 /* HumborgListTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		292128962063F23D0047F163 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2921289F2063F23D0047F163 /* HumborgListUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		292128912063F23D0047F163 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 292128772063F23D0047F163 /* HumborgList */;
+			targetProxy = 292128902063F23D0047F163 /* PBXContainerItemProxy */;
+		};
+		2921289C2063F23D0047F163 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 292128772063F23D0047F163 /* HumborgList */;
+			targetProxy = 2921289B2063F23D0047F163 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2921287F2063F23D0047F163 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				292128802063F23D0047F163 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		292128872063F23D0047F163 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				292128882063F23D0047F163 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		292128A12063F23D0047F163 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		292128A22063F23D0047F163 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		292128A42063F23D0047F163 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31D4008ED6E193FD5B30B6D9 /* Pods-HumborgList.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NCU4JG2P77;
+				INFOPLIST_FILE = "$(SRCROOT)/HumborgList/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HumborgList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		292128A52063F23D0047F163 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2950DE9CE3F2F28D764776D /* Pods-HumborgList.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NCU4JG2P77;
+				INFOPLIST_FILE = "$(SRCROOT)/HumborgList/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HumborgList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		292128A72063F23D0047F163 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACE9B16DFF6D2F809ECD0F1F /* Pods-HumborgListTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NCU4JG2P77;
+				INFOPLIST_FILE = HumborgListTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HumborgList.HumborgListTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HumborgList.app/HumborgList";
+			};
+			name = Debug;
+		};
+		292128A82063F23D0047F163 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DE58BFA1EC333A1E33A5BC8 /* Pods-HumborgListTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NCU4JG2P77;
+				INFOPLIST_FILE = HumborgListTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HumborgList.HumborgListTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HumborgList.app/HumborgList";
+			};
+			name = Release;
+		};
+		292128AA2063F23D0047F163 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01479928692F9B0AC7DFA1D7 /* Pods-HumborgListUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NCU4JG2P77;
+				INFOPLIST_FILE = HumborgListUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HumborgList.HumborgListUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HumborgList;
+			};
+			name = Debug;
+		};
+		292128AB2063F23D0047F163 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBF22E9C240ADEBD7D7AD7ED /* Pods-HumborgListUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NCU4JG2P77;
+				INFOPLIST_FILE = HumborgListUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HumborgList.HumborgListUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HumborgList;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		292128732063F23D0047F163 /* Build configuration list for PBXProject "HumborgList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				292128A12063F23D0047F163 /* Debug */,
+				292128A22063F23D0047F163 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		292128A32063F23D0047F163 /* Build configuration list for PBXNativeTarget "HumborgList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				292128A42063F23D0047F163 /* Debug */,
+				292128A52063F23D0047F163 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		292128A62063F23D0047F163 /* Build configuration list for PBXNativeTarget "HumborgListTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				292128A72063F23D0047F163 /* Debug */,
+				292128A82063F23D0047F163 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		292128A92063F23D0047F163 /* Build configuration list for PBXNativeTarget "HumborgListUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				292128AA2063F23D0047F163 /* Debug */,
+				292128AB2063F23D0047F163 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		292128822063F23D0047F163 /* HumborgList.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				292128832063F23D0047F163 /* HumborgList.xcdatamodel */,
+			);
+			currentVersion = 292128832063F23D0047F163 /* HumborgList.xcdatamodel */;
+			path = HumborgList.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 292128702063F23D0047F163 /* Project object */;
+}
