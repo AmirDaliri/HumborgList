@@ -30,7 +30,7 @@ struct Events: Mappable {
 struct EventsItems: Mappable {
     
     var id:                 String?
-    var title:              Int?
+    var title:              String?
     var description:        String?
     var address:            String?
     var location:           Double?
@@ -43,7 +43,9 @@ struct EventsItems: Mappable {
     var chef:               EventsChef?
     var city:               EventsCity?
     var images:             [EventsImages]?
-    var schedules:          EventsSchedules?
+    var imagesUrl:          [EventsImagesUrls]?
+
+    var schedules:          [EventsSchedules]?
     
     init?(map: Map) {}
     
@@ -62,7 +64,8 @@ struct EventsItems: Mappable {
         chef                 <- map["chef"]
         city                 <- map["city"]
         images               <- map["images"]
-        schedules            <- map["chef"]
+        imagesUrl            <- map["images"]
+        schedules            <- map["schedules"]
     }
 }
 
@@ -123,6 +126,18 @@ struct EventsImages: Mappable {
         updatedAt   <- map["updatedAt"]
     }
 }
+
+struct EventsImagesUrls: Mappable {
+    
+    var imageUrl:       String?
+    
+    init?(map: Map) {}
+    
+    mutating func mapping(map: Map) {
+        imageUrl    <- map["imageUrl"]
+    }
+}
+
 
 struct EventsSchedules: Mappable {
     

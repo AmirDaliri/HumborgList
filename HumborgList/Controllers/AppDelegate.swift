@@ -14,8 +14,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        self.setupNavbar()
         return true
+    }
+
+    func setupNavbar() {
+        let navigationBarAttributedStringKey = [NSAttributedStringKey.foregroundColor: UIColor.white,NSAttributedStringKey.font: UIFont.systemFont(ofSize: 18)]
+        let barButtonItemAttributedStringKey = [NSAttributedStringKey.foregroundColor: UIColor.white,NSAttributedStringKey.font: UIFont.systemFont(ofSize: 13)]
+        UINavigationBar.appearance().titleTextAttributes = navigationBarAttributedStringKey
+        UIBarButtonItem.appearance().setTitleTextAttributes(barButtonItemAttributedStringKey, for: .normal)
+        UIBarButtonItem.appearance().setBackButtonTitlePositionAdjustment(UIOffsetMake(0, -2), for:UIBarMetrics.default)
+        UINavigationBar.appearance().barTintColor = UIColor.blackTint
+        UINavigationBar.appearance().tintColor = UIColor.white
     }
 
 }

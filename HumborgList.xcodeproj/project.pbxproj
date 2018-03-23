@@ -21,9 +21,13 @@
 		29ADF1DB20642D4B00EA2DDB /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29ADF1DA20642D4B00EA2DDB /* Events.swift */; };
 		29ADF1DD20642D8A00EA2DDB /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29ADF1DC20642D8A00EA2DDB /* Reachability.swift */; };
 		29ADF1E020642DA800EA2DDB /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29ADF1DF20642DA800EA2DDB /* Helpers.swift */; };
-		29ADF1E220642DB900EA2DDB /* AACarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29ADF1E120642DB900EA2DDB /* AACarousel.swift */; };
 		29ADF1E420642DD700EA2DDB /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29ADF1E320642DD700EA2DDB /* EventTableViewCell.swift */; };
 		29ADF1E720642E0000EA2DDB /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29ADF1E620642E0000EA2DDB /* Strings.swift */; };
+		29ADF1E9206430CE00EA2DDB /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29ADF1E8206430CE00EA2DDB /* Extensions.swift */; };
+		29ADF1EB2064481200EA2DDB /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29ADF1EA2064481200EA2DDB /* Colors.swift */; };
+		29ADF1ED20644E6200EA2DDB /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29ADF1EC20644E6200EA2DDB /* RatingControl.swift */; };
+		29ADF1EF20645D4600EA2DDB /* EventDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29ADF1EE20645D4600EA2DDB /* EventDetailViewController.swift */; };
+		29ADF1F120646AC500EA2DDB /* EventImagesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29ADF1F020646AC500EA2DDB /* EventImagesCollectionViewCell.swift */; };
 		5D8A0D2A72D31B4A095BF96E /* Pods_HumborgList.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC11685F5E5AAF39AEDE33C0 /* Pods_HumborgList.framework */; };
 		702E56F6A33B7D676F44EBD3 /* Pods_HumborgListTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E53F94168D4516F60639E71E /* Pods_HumborgListTests.framework */; };
 		886DF23A29FB0C4642CF1144 /* Pods_HumborgListUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 970BCCD67EC1E63806010C51 /* Pods_HumborgListUITests.framework */; };
@@ -69,9 +73,13 @@
 		29ADF1DA20642D4B00EA2DDB /* Events.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Events.swift; sourceTree = "<group>"; };
 		29ADF1DC20642D8A00EA2DDB /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		29ADF1DF20642DA800EA2DDB /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
-		29ADF1E120642DB900EA2DDB /* AACarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AACarousel.swift; sourceTree = "<group>"; };
 		29ADF1E320642DD700EA2DDB /* EventTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
 		29ADF1E620642E0000EA2DDB /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		29ADF1E8206430CE00EA2DDB /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		29ADF1EA2064481200EA2DDB /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		29ADF1EC20644E6200EA2DDB /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
+		29ADF1EE20645D4600EA2DDB /* EventDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailViewController.swift; sourceTree = "<group>"; };
+		29ADF1F020646AC500EA2DDB /* EventImagesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventImagesCollectionViewCell.swift; sourceTree = "<group>"; };
 		31D4008ED6E193FD5B30B6D9 /* Pods-HumborgList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HumborgList.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HumborgList/Pods-HumborgList.debug.xcconfig"; sourceTree = "<group>"; };
 		970BCCD67EC1E63806010C51 /* Pods_HumborgListUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HumborgListUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACE9B16DFF6D2F809ECD0F1F /* Pods-HumborgListTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HumborgListTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HumborgListTests/Pods-HumborgListTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -138,7 +146,6 @@
 				292128BA2063F3F70047F163 /* Models */,
 				292128AC2063F33F0047F163 /* Controllers */,
 				292128AD2063F34C0047F163 /* View */,
-				29ADF1E520642DDE00EA2DDB /* Feed */,
 				29ADF1DE20642D9300EA2DDB /* Misc */,
 				292128AF2063F3660047F163 /* Resources */,
 				292128B02063F3720047F163 /* Supporting Files */,
@@ -169,6 +176,7 @@
 			children = (
 				2921287B2063F23D0047F163 /* AppDelegate.swift */,
 				29ADF1D820642D1A00EA2DDB /* EventsViewController.swift */,
+				29ADF1EE20645D4600EA2DDB /* EventDetailViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -177,6 +185,7 @@
 			isa = PBXGroup;
 			children = (
 				292128AE2063F35A0047F163 /* Storyboards & Nibs */,
+				29ADF1E520642DDE00EA2DDB /* Feed */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -195,6 +204,7 @@
 			children = (
 				292128852063F23D0047F163 /* Assets.xcassets */,
 				29ADF1E620642E0000EA2DDB /* Strings.swift */,
+				29ADF1EA2064481200EA2DDB /* Colors.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -230,8 +240,9 @@
 			isa = PBXGroup;
 			children = (
 				29ADF1DC20642D8A00EA2DDB /* Reachability.swift */,
+				29ADF1E8206430CE00EA2DDB /* Extensions.swift */,
 				29ADF1DF20642DA800EA2DDB /* Helpers.swift */,
-				29ADF1E120642DB900EA2DDB /* AACarousel.swift */,
+				29ADF1EC20644E6200EA2DDB /* RatingControl.swift */,
 			);
 			path = Misc;
 			sourceTree = "<group>";
@@ -240,6 +251,7 @@
 			isa = PBXGroup;
 			children = (
 				29ADF1E320642DD700EA2DDB /* EventTableViewCell.swift */,
+				29ADF1F020646AC500EA2DDB /* EventImagesCollectionViewCell.swift */,
 			);
 			path = Feed;
 			sourceTree = "<group>";
@@ -586,15 +598,19 @@
 			files = (
 				292128842063F23D0047F163 /* HumborgList.xcdatamodeld in Sources */,
 				29ADF1E420642DD700EA2DDB /* EventTableViewCell.swift in Sources */,
+				29ADF1F120646AC500EA2DDB /* EventImagesCollectionViewCell.swift in Sources */,
 				292128B42063F39D0047F163 /* ApiRouter.swift in Sources */,
+				29ADF1EB2064481200EA2DDB /* Colors.swift in Sources */,
 				292128B62063F3C80047F163 /* User.swift in Sources */,
-				29ADF1E220642DB900EA2DDB /* AACarousel.swift in Sources */,
 				29ADF1D920642D1A00EA2DDB /* EventsViewController.swift in Sources */,
 				29ADF1E020642DA800EA2DDB /* Helpers.swift in Sources */,
 				29ADF1DB20642D4B00EA2DDB /* Events.swift in Sources */,
+				29ADF1E9206430CE00EA2DDB /* Extensions.swift in Sources */,
 				2921287C2063F23D0047F163 /* AppDelegate.swift in Sources */,
 				29ADF1DD20642D8A00EA2DDB /* Reachability.swift in Sources */,
 				29ADF1E720642E0000EA2DDB /* Strings.swift in Sources */,
+				29ADF1ED20644E6200EA2DDB /* RatingControl.swift in Sources */,
+				29ADF1EF20645D4600EA2DDB /* EventDetailViewController.swift in Sources */,
 				292128B82063F3D80047F163 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -763,7 +779,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NCU4JG2P77;
+				DEVELOPMENT_TEAM = E66YV5N3B3;
 				INFOPLIST_FILE = "$(SRCROOT)/HumborgList/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.HumborgList;
@@ -779,7 +795,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NCU4JG2P77;
+				DEVELOPMENT_TEAM = E66YV5N3B3;
 				INFOPLIST_FILE = "$(SRCROOT)/HumborgList/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.HumborgList;
